@@ -1,0 +1,567 @@
+
+#content {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 70rem;
+  top: 4.5rem;
+  left: 12.8rem;
+  height: auto;
+  margin-bottom: 8rem;
+}
+#left {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 45rem;
+  height: auto;
+}
+#right {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 20.6rem;
+  height: auto;
+}
+.left_box {
+  width: 45rem;
+}
+#left_01 {
+  height: 22rem;
+  overflow: hidden;
+}
+#left_01_imgboxs{
+  position: relative;
+  height: 17rem;
+  left:-45rem;
+  background-color: antiquewhite;
+}
+.hotingFilm{
+  position: absolute;
+  width: 7.7rem;
+  height: 17rem;
+}
+.hotingImg{
+  cursor: pointer;
+}
+.hot_mid_film{
+  position: absolute;
+  width: 45rem;
+  height: 17rem;
+  transition:left .5s ease-in-out;
+}
+.hotingFilmName{
+  text-align: center;
+  cursor: pointer;
+  margin-top: 0.6rem;
+  font-size: 0.8rem;
+}
+.hotingFilm>img{
+  height: 10.5rem;
+  width: 7.6rem;
+}
+.hotingStars{
+  margin-left: 1.8rem;
+}
+.hotingBuy{
+  margin-top: 0.3rem;
+  cursor: pointer;
+  padding: 0.2rem 0.9rem 0.2rem 1rem;
+  background-color: rgb(38,141,205);
+  color: white;
+  width:3rem;
+  font-size: 0.5rem;
+  margin-left: 1.5rem ;
+}
+.hover_film_hot{
+  position:absolute;
+  width: 14rem;
+  background-color: white;
+  z-index: 1;
+  padding: 1rem;
+  border: 1px solid rgb(221,221,221);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 0.5rem;
+  display: none;
+}
+.hover_filmyears{
+  display: inline-block;
+  font-size: 0.5rem;
+  color:rgb(178,170,178);
+  margin-left: 0.5rem;
+}
+.hover_people{
+  margin-left: 0.5rem;
+}
+.hover_filmname{
+  display: inline-block;
+  font-size: 1rem;
+}
+.filmBigbox{
+  position: relative;
+  width: 44.9rem;
+  height: 15rem;
+}
+.filmMidbox{
+  position: absolute;
+  width: 44.9rem;
+  height: 15rem;
+  transition:left .5s linear;
+}
+.filmbbbbox{
+  position: relative;
+  left:-45rem;
+}
+.filmsSmallbox{
+  position: absolute;
+  width: 7.7rem;
+  font-size: 0.9rem;
+  height: 13rem;
+  cursor: pointer;
+}
+.hover_big_box{
+  background-color: white;
+  
+}
+.hover_topbox{
+  padding: 1rem;
+}
+.hover_botbox{
+  padding: 1rem;
+  background-color: rgb(245,245,245);
+}
+.hover_bigbig{
+  position: absolute;
+  display: none;
+  z-index: 2;
+  padding-left: 1.5rem;
+  width: 20rem;
+  font-size: 0.8rem;
+}
+.hover_topfilmname{
+  display: inline-block;
+  font-size: 1.2rem;
+  color: rgb(102,102,153);
+  cursor: pointer;
+}
+.hover_topfilmname>span{
+  margin-left: 0.5rem;
+}
+.hover_toptag{
+  display: flex;
+  flex-wrap: wrap;
+}
+.hover_topwant{
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+.hover_topwant>div{
+  cursor: pointer;
+  padding: 0.15rem 0.7rem 0.15rem 0.7rem;
+  border: 1px solid rgb(187,187,187) ;
+  margin-right: 0.5rem;
+}
+.hover_botbox>span{
+  color: rgb(187,170,177);
+  margin-left: 0.5rem;
+}
+.hover_toptag>div{
+  padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+  background-color: rgb(245,245,245);
+  border-radius: 1rem;
+  margin-right: 0.5rem;
+  margin-top: 0.4rem;
+}
+.hover_topstars{
+  margin-top: 0.3rem;
+  margin-bottom: 0.5rem;
+}
+.hover_topfilmname:hover{
+  background-color: rgb(51,119,170);
+  color: white;
+}
+.filmsSmallbox>img{
+  height: 10rem;
+  width: 7.7rem;
+}
+.filmnamebiu span{
+  color: rgb(224,144,21);
+  margin-left: 0.2rem;
+}
+.filmnamebiu{
+  text-align: center;
+  font-size: 0.8rem;
+  color:rgb(51,119,189);
+}
+.row_2{
+  display: flex;
+  margin-top: 0.8rem;
+}
+.row_3{
+  margin-top: 0.5rem;
+  display: flex;
+}
+.row_4{
+  margin-top: 0.5rem;
+}
+.hover_filmplace{
+  margin-left: 0.5rem;
+}
+.hover_filmactor{
+  margin-top: 0.2rem;
+}
+.row_4 span{
+  margin-left: 0.5rem;
+}
+#left_02 {
+  height: 33rem;
+  margin-bottom: 3rem;
+  overflow: hidden;
+}
+#left_03 {
+  height: 33rem;
+  margin-bottom: 3rem;
+  overflow: hidden;
+}
+
+#left_05 {
+  height: 10rem;
+}
+.arrowheads{
+  top:13rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.circle{
+  position: relative;
+  height: 0.4rem;
+  width: 0.4rem;
+  background-color: rgb(216,216,216);
+  cursor: pointer;
+  border-radius: 0.5rem;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  top:0.9rem;
+}
+.arrowheads>div[class = "arrowhead"]{
+  margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.right_box {
+  width: 20.6rem;
+}
+#right_01 {
+  width: 19.6rem;
+  height: 3rem;
+  background-color: rgb(242, 247, 246);
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  line-height: 2.5rem;
+}
+#right_02 {
+  height: 30rem;
+}
+#right_03 {
+  height: 10rem;
+}
+#right_04 {
+  height: 8.8rem;
+}
+#right_05 {
+  height: 30rem;
+}
+#rb2_01 {
+  position: relative;
+  line-height: 1.2rem;
+  left: 2rem;
+}
+.rb2_02 {
+  padding-left: 0.5rem;
+  font-size: 0.85rem;
+}
+.rb2_02 a {
+  margin-left: 0.6rem;
+}
+.email_right {
+  font-size: 0.85rem;
+  line-height: 1rem;
+}
+.email_right img {
+  width: 8rem;
+  margin-left: 1rem;
+}
+#email01 {
+  position: relative;
+  top: 0.2rem;
+}
+#email02 {
+  position: relative;
+  top: 0.3rem;
+  width: 7rem;
+}
+#email_all {
+  margin-top: 1.5rem;
+}
+#guanzhu {
+  margin-top: 1.2rem;
+  width: 15rem;
+  display: flex;
+  justify-content: space-around;
+}
+#guanzhu img {
+  width: 2.5rem;
+}
+#guanzhu_01 {
+  width: 16.8rem;
+  display: flex;
+  justify-content: space-around;
+}
+#right_bottom {
+  position: relative;
+  top: 3.5rem;
+  width: 19.5rem;
+  left: 0.3rem;
+  height: 6rem;
+  background-color: rgb(249, 249, 249);
+}
+#right_bottom img {
+  position: relative;
+  top: 0.5rem;
+  width: 6rem;
+  left: 0.5rem;
+}
+#right_bottom a {
+  position: relative;
+  left: 7.7rem;
+  top: -4rem;
+}
+#right_bottom a div {
+  width: 11rem;
+}
+#right_bottom > div {
+  position: relative;
+  left: 7.7rem;
+  top: -3.5rem;
+}
+.left_min_a a {
+  margin-left: 1.2rem;
+}
+.arrowhead {
+  width: 1.15rem;
+  height: 1.15rem;
+  background-color: rgb(109, 152, 210);
+  text-align: center;
+  border-radius: 100%;
+  color: white;
+  font-size: 0.9rem;
+  line-height: 1rem;
+}
+.arrowhead:hover {
+  cursor: pointer;
+}
+#arrowhead_1_01 {
+  position: absolute;
+  left: 41.5rem;
+}
+#arrowhead_1_02 {
+  position: absolute;
+  left: 43.5rem;
+}
+#arrowhead_2_01 {
+  position: absolute;
+  left: 41.5rem;
+}
+#arrowhead_2_02 {
+  position: absolute;
+  left: 43.5rem;
+}
+.pro {
+  font-size: 0.78rem;
+}
+.pro span {
+  margin: 0 0.3rem 0 0.3rem;
+}
+#pro01 {
+  position: absolute;
+  top: 0.8rem;
+  left: 36rem;
+}
+#pro02 {
+  position: relative;
+  left: 32rem;
+  top: 0.1rem;
+}
+#hot_movie_title .hoverall {
+  position: relative;
+  margin-left: 0.9rem;
+}
+#hot_title .hoverall {
+  position: relative;
+  margin-left: 0.9rem;
+}
+#left_05 div .hoverall {
+  position: relative;
+  margin-left: 0.9rem;
+}
+.rec_box{
+  position: absolute;
+  display: flex;
+  margin-top: 1rem;
+  background-color: rgb(249,249,249);
+  left:0rem;
+  right:0rem;
+  margin-left: 0.1rem;
+}
+.rec_box_remove{
+  transition:left 1.5s ease-in-out;
+}
+.rec_title{
+  font-size: 1.2rem;
+  margin-top: 3rem;
+  margin-left: 2rem;
+  width: inherit;
+}
+.rec_content{
+  position: relative;
+  margin-top: 1.7rem;
+  margin-left: 2rem;
+}
+.rec_title_a{
+  text-decoration: none;
+  color: black;
+}
+#recommend{
+  position: relative;
+  display: flex;
+  right: 45.1rem;
+  height: 17.2rem;
+  
+}
+.rec_right{
+  width: 22rem;
+}
+#recommend_box{
+  overflow: hidden;
+}
+#commentboxborder{
+  display: none;
+  position: fixed;
+  width: 33rem;
+  height: 20rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 0.3rem;
+  z-index: 999;
+  top:13rem;
+  left: 30rem;
+}
+#commentbox{
+  position: relative;
+  width: 32rem;
+  border-radius: 0.1rem;
+  height: 19rem;
+  background-color: white;
+  left: 0.5rem;
+  top:0.5rem;
+  font-size: 0.8rem;
+}
+
+#commentbox_title{
+  background-color: rgb(235,245,234);
+  color: rgb(0,119,92);
+  height: 3rem;
+  padding-left: 1rem;
+}
+#commentbox_close{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  color: rgb(191,208,221);
+  left:22rem;
+  top:0.6rem;
+  font-size: 0.8rem;
+  padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+}
+#title_contg{
+  position: relative;
+  display: inline-block;
+  top:0.7rem;
+
+}
+#commentbox_close:hover{
+  background-color: brown;
+  color: white;
+}
+#comment_row1{
+  padding-left: 1rem;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  display: flex;
+}
+#comment_row1>input{
+  margin-right: 0.3rem;
+}
+#comment_star{
+  display: flex;
+  margin-left: 0.5rem;
+}
+.jdsa{
+  margin-right: 1rem;
+}
+#comment_stars{
+  display: flex;
+}
+#comment_row2{
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+#comment_tag{
+  margin-left: 1rem;
+}
+.input{
+  outline: none;
+  border: 1px solid rgb(204,204,204);
+  padding-left: 0.2rem;
+  height: 1.2rem;
+}
+#comment_row3{
+  margin-left: 1rem;
+  margin-top: 1.5rem;
+}
+#comment_row3 span{
+  display: block;
+  float: right;
+  margin-right: 2rem;
+}
+#short_comment{
+  margin-left: 1rem;
+  height: 3rem;
+  width: 29rem;
+}
+#save{
+  margin-top: 2rem;
+  background-color: rgb(233,238,242);
+  height: 3rem;
+}
+#save button{
+  float: right;
+  margin-top: 0.8rem;
+  margin-right: 1rem;
+}
+#eva1_star img{
+  margin-top: 0.1rem;
+  width:1rem;
+  height: 1rem;
+  
+}
+#eva1_star{
+  margin-left: 0.5rem;
+  display: flex;
+}
+
+#eva1_score{
+  line-height: 1.1rem;
+  font-size: 0.7rem;
+}

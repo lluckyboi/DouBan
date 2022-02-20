@@ -1,0 +1,148 @@
+*{
+    font-size: 1rem;
+}
+#content{
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 47rem;
+    width: 100rem;
+}
+#nav{
+    position: relative;
+    width:100rem;
+    height:4.5rem;
+    background-color: rgb(237,244,237);
+}
+#nav_picture{
+    position: relative;
+    top:1rem;
+    left:16rem;
+    height: 2rem;
+    width:10rem;
+}
+#login-warp{
+    position: relative;
+    margin-top: 5rem;
+    width:94.95rem;
+    height: 37rem;
+}
+#login_left_picture{
+    position: relative;
+    width:40rem;
+    height:34rem;
+    left:14rem;
+}
+#login_right{
+    float:right;
+    display: flex;
+    flex-direction: column;
+    border:1px solid rgb(216,216,216);
+    width:20rem;
+    height:26rem;
+    margin-top:3rem;
+    margin-right:23rem;
+}
+#left_pb{
+    position: relative;
+    top:-4rem;
+    left:32rem;
+    width:20rem;
+    height: 4rem;
+}
+#left_a{
+    height: 2.5rem;
+    width:8.6rem;
+    background-color: rgb(60,57,56);
+    color:white;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 2.4rem;
+    font-size:small;
+}
+#left-p{
+    position: relative;
+    left:9rem;
+    top:-2.5rem;
+    height:2.5rem;
+    text-decoration: none;
+}
+.log_title {
+    margin-top: 3rem;
+    width:7.4rem;
+    height: 2.2rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.log_title_color{
+    color: rgb(161,163,161);
+    border-bottom: 1.5px solid rgb(236,236,236);
+}
+.log_title_click{
+    color: black;
+    border-color: black;
+    border: 0 0 2px 0;
+    border-bottom: 2px solid black;
+}
+#regOrlogin{
+    position: relative;
+    display: flex;
+    margin-left: 2rem;
+    cursor:default;
+    
+}
+#login_right input{
+    margin-left: 2rem;
+    margin-top:1.2rem;
+    outline: none;
+    width:10rem;
+    border:1px solid rgb(228,230,229);
+    height: 2rem;
+    padding-left: 0.7rem;
+    padding-right: 4rem;
+    border-radius: 0.3rem;
+}
+#login_right #find_passwd{
+    position: absolute;
+    top:14.3rem;
+    right:27rem;
+    font-size:0.8rem;
+}
+#login_right #find_passwd a{
+    text-decoration: none;
+    color: rgb(155,168,197);
+}
+#login,#reg,#next{
+    cursor:default;
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 1.8rem;
+    margin-left: 2rem;
+    width:14.8rem;
+    background-color: rgb(65,172,82);
+    height: 2rem;
+    font-weight: 600;
+    color:white;
+    border-radius: 0.3rem;
+}
+#failedOrSuccess{
+    cursor:default;
+    text-align: center;
+    margin-top: 1rem;
+    line-height: 1.8rem;
+    margin-left: 2.3rem;
+    width:14rem;
+    background-color:rgba(255, 0, 0,0);
+    height: 2rem;
+    font-weight: 600;
+    color:white;
+    border-radius: 0.3rem;
+}
+#login_C{
+    display: none;
+}
+#reg_step2{
+    display: none;
+}
