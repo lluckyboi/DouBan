@@ -3,6 +3,7 @@ package api
 import (
 	"github.com/gin-contrib/cors"
 	"github.com/gin-gonic/gin"
+	"github.com/gin-contrib/static"
 )
 
 func RUNENGINE() {
@@ -14,7 +15,9 @@ func RUNENGINE() {
 	config.AllowMethods = []string{"GET", "POST", "OPTIONS" ,"PUT" ,"DELETE"}//允许请求的方法
 	config.AllowHeaders = []string{"tus-resumable", "upload-length", "upload-metadata", "cache-control", "x-requested-with", "*"}//允许的Header
 	r.Use(cors.New(config))
-
+	
+	// 部署前端静态网站
+	r.Use(static.Serve("/", static.LocalFile("./static", false)))
 	//获取token接口
 	r.POST("/auth", authHandler)
 	//测试
