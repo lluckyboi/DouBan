@@ -1,0 +1,141 @@
+#people_content{
+    width: 50rem;
+    position: relative;
+    margin-top: 2.5rem;
+    left:12rem;
+}
+#people_title{
+    display: flex;
+}
+#userimg{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+#imgrightinfo{
+    margin-left: 1rem;
+}
+#username{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+#tag_people{
+    margin-top: 0.2rem;
+    display: flex;
+    color: rgb(102,102,153);
+    font-size: 0.5rem;
+}
+#tag_people div{
+    margin-right: 1rem;
+    cursor: pointer;
+}
+#tag_people div:hover{
+    background-color: rgb(51,119,170);
+    color: white;
+}
+#username_main{
+    display: flex;
+    flex-direction: column;
+}
+.user_film_kinds{
+    margin-top: 3rem;
+}
+.want{
+    display: inline-block;
+    color: rgb(0,119,98);
+}
+.want span{
+    margin: 0 0.5rem 0 0.5rem;
+}
+.pos_numbers{
+    font-size: 0.5rem;
+    color: rgb(102,126,196);
+    cursor: pointer;
+}
+.pos_numbers:hover{
+    background-color: rgb(51,119,170);
+    color: white;
+}
+.main_film_img{
+    width: 7rem;
+    height: 9rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+.comment_box{
+    margin-top:2.5rem;
+    display: flex;
+    padding-bottom: 2rem;
+    border-bottom: 1px dashed rgb(221,221,221);
+}
+.comment_film_imgb{
+    width: 5rem;
+    height: 7rem;
+}
+.film_right_info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+.film_title_comment{
+    background-color: rgb(242,244,246);
+    width: 37rem;
+    padding: 0.2rem 0.2rem 0.2rem 0.2rem;
+    color: rgb(102,126,196);
+    cursor: pointer;
+}
+.film_title_comment span:hover{
+    background-color: rgb(51,119,170);
+    color: white;
+}
+.film_more_information{
+    font-size: 0.5rem;
+    color: rgb(102,102,102);
+}
+#username_want{
+    display: none;
+}
+#username_see{
+    display: none;
+}
+.my_comment{
+    font-size: 0.5rem;
+    color: rgb(102,102,102);
+}
+.my_comment_content{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+.my_comment{
+    display: flex;
+}
+.my_comment>*{
+    margin-right: 0.3rem;
+}
+.film_right_info>*{
+    margin-top: 0.3rem;
+}
+#userintroduction{
+    font-size: 0.5rem;
+    color: black;
+    margin-top: 0.5rem;
+}
+#userintroduction *{
+    display: inline-block;
+}
+.pdd{
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+.pdd:hover{
+    color: brown;
+}
+#inputintro{
+    display: none;
+    border: 1px solid rgb(84,86,82);
+    padding: 0.3rem;
+    padding-right: 2rem;
+    font-size: 0.5rem;
+    display: none;
+    border-radius: 0.2rem;
+    outline: none;
+}
