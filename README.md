@@ -1,5 +1,13 @@
 # DouBan
-douban by go
+采用了JWT验证方式
+
+exists嵌套模糊查询实现分类搜索电影
+
+评分系统使用加权平均公式
+
+cors解决跨域问题
+
+wordpress实现部署
 # API
 
 ## JWT
