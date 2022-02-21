@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/tag_top.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/search.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="nav">
+        <div id="nav_left">
+            <a href=""><span>豆瓣</span></a>
+            <a href=""><span>读书</span></a>
+            <a href=""><span>电影</span></a>
+            <a href=""><span>音乐</span></a>
+            <a href=""><span>同城</span></a>
+            <a href=""><span>小组</span></a>
+            <a href=""><span>阅读</span></a>
+            <a href=""><span>FM</span></a>
+            <a href=""><span>时间</span></a>
+            <a href=""><span>豆品</span></a>
+        </div>
+        <div id="nav_right">
+            <span href="" onmouseover="show(this)" onmouseout="show_out(this)"><span>下载豆瓣客户端</span></span>
+            <span href="./login.html"><span>登录/注册</span></span>
+            <span href="" id="username_a"></span>
+        </div>
+        <div id="loginafterhover">
+            <div>个人主页</div>
+            <div>退出</div>
+        </div>
+    </div>
+    <div id="download" onmouseover="show(this)" onmouseout="show_out(this)">
+        <div id="tag">豆</div>
+        <div id="tag_L1">豆瓣</div>
+        <img id="tag_img" src="pictures/index/1.png" alt="" />
+        <a id="tag_download" href="">
+            <div>iPhone · Android</div>
+        </a>
+    </div>
+    <div id="nav_2">
+        <div id="search">
+            <a href="">
+                <div id="search_logo">豆瓣电影</div>
+            </a>
+            <div id="search_go">
+                <input id="search_go1" placeholder="搜索电影、电视剧、综艺，影人" type="text" />
+                <div href=""><img id="search_go2" src="pictures/index/2.png" alt="" /></div>
+            </div>
+        </div>
+        <div id="nav_3">
+            <a href="">影讯&购票</a>
+            <a href="">选电影</a>
+            <a href="">电视剧</a>
+            <a href="">排行榜</a>
+            <a href="">分类</a>
+            <a href="">影评</a>
+            <a href="">2021年度榜单</a>
+            <a href="">2021书影音报告</a>
+        </div>
+        <a href=""><img id="pic_r" src="pictures/index/3.png" alt="" /></a>
+    </div>
+    <div id="search_content">
+        <div id="search_title">搜索null</div>
+    </div>
+    <div id="commentboxborder">
+        <div id="commentbox">
+            <div id="commentbox_title"><span id="title_contg">添加收藏：写短评</span>
+                <div id="commentbox_close">x</div>
+            </div>
+            <form id="comment_form">
+                <div id="comment_row1">
+                    <div class="jdsa"><input type="radio" name="value">想看</div>
+                    <div class="jdsa"><input type="radio" name="value">看过</div>
+                    <div id="comment_star">给个评价吧?(可选):
+                        <div id="comment_stars">
+                            <div id="eva1_star">
+                                <img src="./pictures/subject/star.png" class="c_stars1" alt="">
+                                <img src="./pictures/subject/star.png" class="c_stars1" alt="">
+                                <img src="./pictures/subject/star.png" class="c_stars1" alt="">
+                                <img src="./pictures/subject/star.png" class="c_stars1" alt="">
+                                <img src="./pictures/subject/star.png" class="c_stars1" alt="">
+                            </div>
+                            <div id="eva1_score"></div>
+                        </div>
+                    </div>
+                </div>
+                <div id="comment_row2">
+                    标签(多个标签用空格分隔):
+                </div>
+                <input type="text" id="comment_tag" class="input">
+                <div id="comment_row3">
+                    简短评论:
+                    <span>350</span>
+                </div>
+                <textarea name="" style="resize:none" class="input" id="short_comment" cols="30" rows="2"></textarea>
+                <div id="save">
+                    <button>保存</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="./js/search.js" type="module"></script>
+<script src="./js/all.js"></script>
+</html>

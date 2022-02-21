@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/chart.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tag_top.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="nav">
+        <div id="nav_left">
+            <a href=""><span>豆瓣</span></a>
+            <a href=""><span>读书</span></a>
+            <a href=""><span>电影</span></a>
+            <a href=""><span>音乐</span></a>
+            <a href=""><span>同城</span></a>
+            <a href=""><span>小组</span></a>
+            <a href=""><span>阅读</span></a>
+            <a href=""><span>FM</span></a>
+            <a href=""><span>时间</span></a>
+            <a href=""><span>豆品</span></a>
+        </div>
+        <div id="nav_right">
+            <span href="" onmouseover="show(this)" onmouseout="show_out(this)"><span>下载豆瓣客户端</span></span>
+            <span href="./login.html"><span>登录/注册</span></span>
+            <span href="" id="username_a"></span>
+        </div>
+        <div id="loginafterhover">
+            <div>个人主页</div>
+            <div>退出</div>
+        </div>
+    </div>
+    <div id="download" onmouseover="show(this)" onmouseout="show_out(this)">
+        <div id="tag">豆</div>
+        <div id="tag_L1">豆瓣</div>
+        <img id="tag_img" src="pictures/index/1.png" alt="" />
+        <a id="tag_download" href="">
+            <div>iPhone · Android</div>
+        </a>
+    </div>
+    <div id="nav_2">
+        <div id="search">
+            <a href="">
+                <div id="search_logo">豆瓣电影</div>
+            </a>
+            <div id="search_go">
+                <input id="search_go1" placeholder="搜索电影、电视剧、综艺，影人" type="text" />
+                <div href=""><img id="search_go2" src="pictures/index/2.png" alt="" /></div>
+            </div>
+        </div>
+        <div id="nav_3">
+            <a href="">影讯&购票</a>
+            <a href="">选电影</a>
+            <a href="">电视剧</a>
+            <a href="">排行榜</a>
+            <a href="">分类</a>
+            <a href="">影评</a>
+            <a href="">2021年度榜单</a>
+            <a href="">2021书影音报告</a>
+        </div>
+        <a href=""><img id="pic_r" src="pictures/index/3.png" alt="" /></a>
+    </div>
+    <div id="chart_content">
+        <div id="chart_left_content">
+            <div id="chart_title">豆瓣电影排行榜</div>
+            <div id="chart_small_title">豆瓣新片榜 · · · · · ·</div>
+            <!-- <div class="film_in">
+                <div class="film_pic"><img src="" alt="" class="fime_picture"></div>
+                <div class="pic_right">
+                    <div class="small_film_name">null</div>
+                    <div class="film_name_information">null</div>
+                    <div class="eva">
+                        <div class="starsAndscore"><span class="star"></span><span class="star-point">8</span>
+                            <div class="peo_numbers">(null)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="film_in">
+                <div class="film_pic"><img src="" alt="" class="fime_picture"></div>
+                <div class="pic_right">
+                    <div class="small_film_name">null</div>
+                    <div class="film_name_information">null</div>
+                    <div class="eva">
+                        <div class="starsAndscore"><span class="star"></span><span class="star-point">8</span>
+                            <div class="peo_numbers">(null)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="film_in">
+                <div class="film_pic"><img src="" alt="" class="fime_picture"></div>
+                <div class="pic_right">
+                    <div class="small_film_name">null</div>
+                    <div class="film_name_information">null</div>
+                    <div class="eva">
+                        <div class="starsAndscore"><span class="star"></span><span class="star-point">8</span>
+                            <div class="peo_numbers">(null)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="film_in">
+                <div class="film_pic"><img src="" alt="" class="fime_picture"></div>
+                <div class="pic_right">
+                    <div class="small_film_name">null</div>
+                    <div class="film_name_information">null</div>
+                    <div class="eva">
+                        <div class="starsAndscore"><span class="star"></span><span class="star-point">8</span>
+                            <div class="peo_numbers">(null)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="film_in">
+                <div class="film_pic"><img src="" alt="" class="fime_picture"></div>
+                <div class="pic_right">
+                    <div class="small_film_name">null</div>
+                    <div class="film_name_information">null</div>
+                    <div class="eva">
+                        <div class="starsAndscore"><span class="star"></span><span class="star-point">8</span>
+                            <div class="peo_numbers">(null)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="film_in">
+                <div class="film_pic"><img src="" alt="" class="fime_picture"></div>
+                <div class="pic_right">
+                    <div class="small_film_name">null</div>
+                    <div class="film_name_information">null</div>
+                    <div class="eva">
+                        <div class="starsAndscore"><span class="star"></span><span class="star-point">8</span>
+                            <div class="peo_numbers">(null)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="film_in">
+                <div class="film_pic"><img src="" alt="" class="fime_picture"></div>
+                <div class="pic_right">
+                    <div class="small_film_name">null</div>
+                    <div class="film_name_information">null</div>
+                    <div class="eva">
+                        <div class="starsAndscore"><span class="star"></span><span class="star-point">8</span>
+                            <div class="peo_numbers">(null)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="film_in">
+                <div class="film_pic"><img src="" alt="" class="fime_picture"></div>
+                <div class="pic_right">
+                    <div class="small_film_name">null</div>
+                    <div class="film_name_information">null</div>
+                    <div class="eva">
+                        <div class="starsAndscore"><span class="star"></span><span class="star-point">8</span>
+                            <div class="peo_numbers">(null)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="film_in">
+                <div class="film_pic"><img src="" alt="" class="fime_picture"></div>
+                <div class="pic_right">
+                    <div class="small_film_name">null</div>
+                    <div class="film_name_information">null</div>
+                    <div class="eva">
+                        <div class="starsAndscore"><span class="star"></span><span class="star-point">8</span>
+                            <div class="peo_numbers">(null)</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="film_in">
+                <div class="film_pic"><img src="" alt="" class="fime_picture"></div>
+                <div class="pic_right">
+                    <div class="small_film_name">null</div>
+                    <div class="film_name_information">null</div>
+                    <div class="eva">
+                        <div class="starsAndscore"><span class="star"></span><span class="star-point">7</span>
+                            <div class="peo_numbers">(null)</div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+        <div id="chart_right_content">
+            <div id="sort_list">
+                <div id="sort_title" class="title_middle" style="margin-bottom: 0.3rem;">分类排行榜 · · · · · ·
+                </div>
+                <div id="sort_box">
+                    <div>剧情</div>
+                    <div>喜剧</div>
+                    <div>动作</div>
+                    <div>爱情</div>
+                    <div>科幻</div>
+                    <div>动画</div> 
+                    <div>悬疑</div>
+                    <div>惊悚</div>
+                    <div>恐怖</div>
+                    <div>纪录片</div>
+                    <div>短片</div>
+                    <div>情色</div>
+                    <div>同性</div>
+                    <div>音乐</div>
+                    <div>歌舞</div>
+                    <div>家庭</div>
+                    <div>儿童</div>
+                    <div>传记</div>
+                    <div>历史</div>
+                    <div>战争</div>
+                    <div>犯罪</div>
+                    <div>西部</div>
+                    <div>奇幻</div>
+                    <div>冒险</div>
+                    <div>灾难</div>
+                    <div>武侠</div>
+                    <div>古装</div>
+                    <div>黑色电影</div>
+                </div>
+            </div>
+            <div id="week_list" class="list_style">
+                <div id="week_title" class="title_middle">一周口碑榜· · · · · ·</div>
+                <div id="week_box">
+                    <div class="item"><span class="num">1</span><span class="name">null</span></div>
+                    <div class="item"><span class="num">2</span><span class="name">null</span></div>
+                    <div class="item"><span class="num">3</span><span class="name">null</span></div>
+                    <div class="item"><span class="num">4</span><span class="name">null</span></div>
+                    <div class="item"><span class="num">5</span><span class="name">null</span></div>
+                    <div class="item"><span class="num">6</span><span class="name">null</span></div>
+                    <div class="item"><span class="num">7</span><span class="name">null</span></div>
+                    <div class="item"><span class="num">8</span><span class="name">null</span></div>
+                    <div class="item"><span class="num">9</span><span class="name">null</span></div>
+                    <div class="item"><span class="num">10</span><span class="name">null</span></div>
+                </div>
+            </div>
+            <div id="am_list" class="list_style">
+                <div id="am_title" class="title_middle">北美票房榜· · · · · ·</div>
+                <div id="am_box">
+                    <div class="item"><span class="num">1</span><span class="name">null</span></div>
+                    <div class="item"><span class="num">2</span><span class="name">null</span></div>
+                    <div class="item"><span class="num">3</span><span class="name">null</span></div>
+                    <div class="item"><span class="num">4</span><span class="name">null</span></div>
+                    <div class="item"><span class="num">5</span><span class="name">null</span></div>
+                    <div class="item"><span class="num">6</span><span class="name">null</span></div>
+                    <div class="item"><span class="num">7</span><span class="name">null</span></div>
+                    <div class="item"><span class="num">8</span><span class="name">null</span></div>
+                    <div class="item"><span class="num">9</span><span class="name">null</span></div>
+                    <div class="item"><span class="num">10</span><span class="name">null</span></div>
+                </div>
+            </div>
+            <div id="douban_img"><img src="./pictures/chart/01.png" alt=""></div>
+            <div class="list_style">
+                <div id="top_title" class="title_middle">豆瓣电影TOP250 <span>全部</span></div>
+                <div id="top_films">
+                    <div class="top_film">
+                        <div class="top_film_pic"><img src="" class="top_filmimg" alt=""></div>
+                        <div class="top_film_name"></div>
+                    </div>
+                    <div class="top_film">
+                        <div class="top_film_pic"><img src="" class="top_filmimg" alt=""></div>
+                        <div class="top_film_name"></div>
+                    </div>
+                    <div class="top_film">
+                        <div class="top_film_pic"><img src="" class="top_filmimg" alt=""></div>
+                        <div class="top_film_name"></div>
+                    </div>
+                    <div class="top_film">
+                        <div class="top_film_pic"><img src="" class="top_filmimg" alt=""></div>
+                        <div class="top_film_name"></div>
+                    </div>
+                    <div class="top_film">
+                        <div class="top_film_pic"><img src="" class="top_filmimg" alt=""></div>
+                        <div class="top_film_name"></div>
+                    </div>
+                    <div class="top_film">
+                        <div class="top_film_pic"><img src="" class="top_filmimg" alt=""></div>
+                        <div class="top_film_name"></div>
+                    </div>
+                    <div class="top_film">
+                        <div class="top_film_pic"><img src="" class="top_filmimg" alt=""></div>
+                        <div class="top_film_name"></div>
+                    </div>
+                    <div class="top_film">
+                        <div class="top_film_pic"><img src="" class="top_filmimg" alt=""></div>
+                        <div class="top_film_name"></div>
+                    </div>
+                    <div class="top_film">
+                        <div class="top_film_pic"><img src="" class="top_filmimg" alt=""></div>
+                        <div class="top_film_name"></div>
+                    </div>
+                    <div class="top_film">
+                        <div class="top_film_pic"><img src="" class="top_filmimg" alt=""></div>
+                        <div class="top_film_name"></div>
+                    </div>
+                    <div class="top_film">
+                        <div class="top_film_pic"><img src="" class="top_filmimg" alt=""></div>
+                        <div class="top_film_name"></div>
+                    </div>
+                    <div class="top_film">
+                        <div class="top_film_pic"><img src="" class="top_filmimg" alt=""></div>
+                        <div class="top_film_name"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="comp">© 2005－2022 douban.com, all rights reserved 北京豆网科技有限公司</div>
+        <div id="about">
+            <div class="about_item">关于豆瓣</div>·
+            <div class="about_item">在豆瓣工作</div>·
+            <div class="about_item">联系我们</div>·
+            <div class="about_item">法律声明</div>·
+            <div class="about_item">帮助中心</div>·
+            <div class="about_item">移动应用</div>·
+            <div class="about_item">豆瓣广告</div>
+        </div>
+    </div>
+</body>
+<script src="./js/chart.js" type="module"></script>
+<script src="./js/all.js"></script>
+
+</html>

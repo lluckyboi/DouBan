@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/tag_top.css">
+    <link rel="stylesheet" href="./css/review.css">
+</head>
+<body>
+    <div id="nav">
+        <div id="nav_left">
+            <a href=""><span>豆瓣</span></a>
+            <a href=""><span>读书</span></a>
+            <a href=""><span>电影</span></a>
+            <a href=""><span>音乐</span></a>
+            <a href=""><span>同城</span></a>
+            <a href=""><span>小组</span></a>
+            <a href=""><span>阅读</span></a>
+            <a href=""><span>FM</span></a>
+            <a href=""><span>时间</span></a>
+            <a href=""><span>豆品</span></a>
+        </div>
+        <div id="nav_right">
+            <span href="" onmouseover="show(this)" onmouseout="show_out(this)"><span>下载豆瓣客户端</span></span>
+            <span href="./login.html"><span>登录/注册</span></span>
+            <span href="" id="username_a"></span>
+        </div>
+        <div id="loginafterhover">
+            <div>个人主页</div>
+            <div>退出</div>
+        </div>
+    </div>
+    <div id="download" onmouseover="show(this)" onmouseout="show_out(this)">
+        <div id="tag">豆</div>
+        <div id="tag_L1">豆瓣</div>
+        <img id="tag_img" src="pictures/index/1.png" alt="" />
+        <a id="tag_download" href="">
+            <div>iPhone · Android</div>
+        </a>
+    </div>
+    <div id="nav_2">
+        <div id="search">
+            <a href="">
+                <div id="search_logo">豆瓣电影</div>
+            </a>
+            <div id="search_go">
+                <input id="search_go1" placeholder="搜索电影、电视剧、综艺，影人" type="text" />
+                <div href=""><img id="search_go2" src="pictures/index/2.png" alt="" /></div>
+            </div>
+        </div>
+        <div id="nav_3">
+            <a href="">影讯&购票</a>
+            <a href="">选电影</a>
+            <a href="">电视剧</a>
+            <a href="">排行榜</a>
+            <a href="">分类</a>
+            <a href="">影评</a>
+            <a href="">2021年度榜单</a>
+            <a href="">2021书影音报告</a>
+        </div>
+        <a href=""><img id="pic_r" src="pictures/index/3.png" alt="" /></a>
+    </div>
+    <div id="review_content">
+        <div id="comment_title">牛null</div>
+        <div id="user_info">
+            <img src="" id="userimg" alt="">
+            <span id="username">null</span>
+            <span>评论</span>
+            <span id="filmname">null</span>
+            <div class="starsAndscore"><span class="star"></span><span class="star-point">8</span></div>
+            <div id="time">null</div>
+        </div>
+        <div id="comment_info">null</div>
+        <div id="userfulOrno">
+            <div id="usefull" class="box05"><img class="useornoIMG" src="./pictures/review/ic_thumb_up.png" alt=""><div id="useinfo">有用<span></span></div></div>
+            <div id="nousefull" class="box05"><img class="useornoIMG" src="./pictures/review/ic_thumb_down.png" alt=""><div id="nouseinfo">没用<span></span></div></div>
+        </div>
+        <div id="resp_top">
+            <div>回应</div>
+            <div>转发</div>
+            <div>收藏</div>
+        </div>
+        <div id="response_box">
+
+        </div>
+        <div id="userRE">
+            <img src="" id="bottom_userimg" class="img" alt="">
+            <div>
+                <textarea name="" placeholder="添加回应" id="inputre" cols="30" rows="10"></textarea>
+                <button id="submit">加上去</button>
+            </div>
+        </div>
+    </div>
+    <div id="bottom">
+        <div id="comp">© 2005－2022 douban.com, all rights reserved 北京豆网科技有限公司</div>
+        <div id="about">
+            <div class="about_item">关于豆瓣</div>·
+            <div class="about_item">在豆瓣工作</div>·
+            <div class="about_item">联系我们</div>·
+            <div class="about_item">法律声明</div>·
+            <div class="about_item">帮助中心</div>·
+            <div class="about_item">移动应用</div>·
+            <div class="about_item">豆瓣广告</div>
+
+        </div>
+    </div>
+</body>
+<script src="./js/review.js" type="module"></script>
+<script src="./js/all.js"></script>
+</html>

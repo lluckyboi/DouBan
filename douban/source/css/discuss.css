@@ -1,0 +1,104 @@
+.top{
+    background-color: rgb(248,248,248);
+    height: 3rem;
+    display: flex;
+}
+.index{
+    cursor: pointer;
+    color: rgb(47,151,62);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-left: 30rem;
+    margin-top: 0.5rem;
+}
+.dsafgr{
+    font-size: 1rem;
+    color: rgb(189,189,189);
+    margin-top:0.8rem
+}
+.dsafgr span{
+    margin: 0 0.5rem 0 0.5rem;
+}
+.dis_submit{
+    display: flex;
+    position: relative;
+    left:46rem;
+}
+.dis_submit div{
+    width:5rem;
+    font-size: 0.8rem;
+}
+.yulan{
+    text-align: center;
+    line-height: 2.7rem;
+}
+#submit{
+    text-align: center;
+    line-height: 2.7rem;
+    background-color: rgb(61,176,77);
+    color: white;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(71,191,88);
+}
+#film_box{
+    background-color: rgb(248,248,248);
+    height: 4rem;
+    position: relative;
+    width: 40rem;
+    left:28rem;
+    top:2rem;
+    display: flex;
+}
+#film_img{
+    width: 3.4rem;
+    height: 4rem;
+    cursor: pointer;
+}
+.film_info{
+    font-size: 0.9rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+}
+#filmname{
+    display: inline;
+    color:rgb(51,162,210);
+    cursor: pointer;
+    
+}
+#filmname:hover{
+    color:white;
+    background-color: rgb(51,162,210);
+}
+#film_infomation{
+    margin-top: 0.5rem;
+    color: rgb(153,153,153);
+    font-size: 0.5rem;
+}
+#addtitle{
+    outline: none;
+    position: relative;
+    left:27rem;
+    top:4rem;
+    height: 2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    width:40.5rem;
+    padding: 0.2rem 0.5rem 0.2rem 0.5rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid rgb(229,229,229);
+}
+#wirite{
+    position: absolute;
+    top:15rem;
+    left:27rem;
+    width: 40.5rem;
+    padding: 0 0.5rem 0 0.5rem;
+    outline: none;
+    border: 0;
+}
