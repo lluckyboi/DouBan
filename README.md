@@ -1,4 +1,5 @@
 # DouBan
+
 采用了JWT验证方式
 
 exists嵌套模糊查询实现分类搜索电影
@@ -8,6 +9,7 @@ exists嵌套模糊查询实现分类搜索电影
 cors解决跨域问题
 
 wordpress实现部署
+
 # API
 
 ## JWT
@@ -248,7 +250,17 @@ wordpress实现部署
 | status   | 状态码   |
 | info     | 返回消息 |
 
+### `/user/getuserinfobyusername` POST
 
+| 请求参数 | 类型 | 说明     |
+| -------- | ---- | -------- |
+| username | 必选 | username |
+
+| 返回参数 | 说明     |
+| -------- | -------- |
+| status   | 状态码   |
+| info     | 返回消息 |
+| data     | data     |
 
 ## film
 
@@ -285,7 +297,7 @@ wordpress实现部署
 | length       | N          | 长度     |
 | othername    | N          | 别名     |
 | IMDb         | N          | IMDb     |
-| score        | N          | 评分     |
+| score        | N(float)   | 评分     |
 | post_num     | N          | 评分人数 |
 | poster_url   | UN         | 海报图   |
 
@@ -375,7 +387,7 @@ wordpress实现部署
 
 | 请求参数 | 类型(N/UN) | 说明      |
 | -------- | ---------- | --------- |
-| token | N          | token    |
+| token    | N          | token     |
 | film_id  | N          | 电影ID    |
 | txt      | N          | 内容      |
 | score    | N          | 分数      |
@@ -558,12 +570,22 @@ wordpress实现部署
 | txt       | N          | 正文   |
 | **token** | N          | token  |
 
-| 返回参数 | 说明     |
-| -------- | -------- |
 | status   | 状态码   |
+| -------- | -------- |
+| 返回参数 | 说明     |
 | info     | 返回消息 |
 
+### `/longpost/getlongpostbyusername	`GET
 
+| 请求参数 | 类型(N/UN) | 说明  |
+| -------- | ---------- | ----- |
+| token    | N          | token |
+
+| status   | 状态码   |
+| -------- | -------- |
+| 返回参数 | 说明     |
+| info     | 返回消息 |
+| data     | data     |
 
 ## lpcomment
 
